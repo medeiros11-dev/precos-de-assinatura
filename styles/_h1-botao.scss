@@ -4,6 +4,8 @@
 }
 
 .precos {
+    
+
     .botao input{
         opacity: 0;
     }
@@ -39,6 +41,10 @@
             bottom: 0.26rem;
             left: 0.26rem;
             transition: all .3s ease-in-out;
+        }
+
+        .slider:hover {
+            background: $linear-primeira;
         }
     }
 }
