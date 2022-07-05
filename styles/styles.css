@@ -31,6 +31,16 @@ body {
   color: hsl(233deg, 13%, 49%);
 }
 
+.precos {
+  color: hsl(234deg, 14%, 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.33rem;
+}
+.precos label {
+  margin: 0 1.33rem;
+}
 .precos .botao input {
   opacity: 0;
 }
@@ -66,4 +76,28 @@ body {
 }
 .precos .botao .slider:hover {
   background: hsl(236deg, 72%, 79%);
+}
+
+.preco-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.preco-principal .caixa-preco {
+  background-color: white;
+  padding: 3.33rem 2.66rem;
+  border-radius: 0.8rem;
+}
+.preco-principal .caixa-preco .titulo-caixa {
+  color: hsl(233deg, 13%, 49%);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.preco-principal .caixa-preco .preco-completo {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preco-principal .caixa-preco .preco-completo .preco {
+  font-size: 4rem;
 }/*# sourceMappingURL=styles.css.map */

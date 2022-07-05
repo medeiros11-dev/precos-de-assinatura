@@ -4,7 +4,15 @@
 }
 
 .precos {
-    
+    color: $ligh-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.33rem;
+
+    label {
+        margin: 0 1.33rem;
+    }
 
     .botao input{
         opacity: 0;

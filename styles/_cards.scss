@@ -1,0 +1,27 @@
+.preco-principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .caixa-preco {
+        background-color: white;
+        padding: 3.33rem 2.66rem;
+        border-radius: 0.8rem;
+
+        .titulo-caixa {
+            color: $grayish-blue;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .preco-completo {
+            font-size: 2.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .preco {
+                font-size: 4rem;
+            }
+        }        
+    }
+}
