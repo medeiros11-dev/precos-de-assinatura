@@ -6,6 +6,7 @@
         background-color: white;
         padding: 3.33rem 2.66rem;
         border-radius: 0.8rem;
+        align-self: center;
 
         .titulo-caixa {
             color: $grayish-blue;
@@ -13,15 +14,74 @@
             margin-bottom: 2rem;
         }
 
-        .preco-completo {
+        .preco-anual, .preco-mensal {
             font-size: 2.5rem;
             display: flex;
             align-items: center;
             justify-content: center;
+            color: $dark-blue;
 
             .preco {
                 font-size: 4rem;
+                padding-left: 0.5rem;
             }
-        }        
+        } 
+
+        .preco-anual{
+            display: none;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 2rem 0;
+
+            li{
+                padding: 1rem 0;
+                color: $grayish-blue;
+                border-bottom: 1px solid $ligh-blue;
+            }
+
+            li:first-child {
+                border-top: 1px solid $ligh-blue;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            background: linear-gradient(180deg, $linear-gradient);
+            color: white;
+            width: 100%;
+            display: block;
+            padding: 0.8rem 0;
+            border-radius: 0.45rem;
+            border: 1px solid $ligh-blue;
+        }
+
+        a:hover {
+            color: $linear-segunda;
+            background: transparent;
+            border-color:$ligh-blue;
+        }
+    }
+
+    .caixa-preco.destacado{
+        background: linear-gradient(180deg, $linear-gradient);
+        padding: 5.33rem 2.66rem;
+        p, li {
+            color: white;
+        }
+
+        a{
+            background: white;
+            color: $linear-segunda;
+        }
+
+        a:hover{
+            background: transparent;
+            color: white;
+            border-color: white;
+        }
     }
 }

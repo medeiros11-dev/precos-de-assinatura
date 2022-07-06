@@ -1,0 +1,14 @@
+@media screen and (max-width: 820px) {
+    .preco-principal {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        .caixa-preco{
+            .preco-anual, .preco-mensal {
+                font-size: 2rem;
+                .preco {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+}
